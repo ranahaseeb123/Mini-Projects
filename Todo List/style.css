@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 500px;
+    background-color: rgb(94, 3, 94);
+    padding: 30px 40px;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.addtask {
+    display: flex;
+    justify-content: space-around;
+}
+.addtask input{
+    height: 35px;
+    width: 70%;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.addtask button {
+    height: 62px;
+    font-size: 20px;
+    width: 20%;
+    background-color: green;
+    color: #fff;
+    border: none;
+}
+.addtask button:hover {
+    background-color: rgb(4, 97, 4);
+}
+
+.single-task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px;
+    gap: 12px;
+}
+
+
+.single-task .task{
+    background-color: white;
+    height: 30px;
+    width: 92%;
+    padding: 12px;
+}
+.single-task .delete{
+    height: 30px;
+    width: 20%;
+    padding: 12px;
+    background: red;
+}
+
+.single-task .task h2{
+    margin: 0px;
+}
+
+
+.delete h2 {
+    width: 20%;
+    margin-top: 0px;
+    color: #fff;
+    font-size: 20px;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: "poppins", sans-serif;
+}
+
+.tasks{
+    margin-top: 30px;
+}
